@@ -4,8 +4,8 @@
         "Stream_Length": 50,
         "Battery_Parameters": 
         {
-            "Battery_Level": "", 
-            "Charging_Current": ""
+            "Battery_Level": [], 
+            "Charging_Current": []
         }
     }
 }

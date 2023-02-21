@@ -26,3 +26,4 @@ Using TDD to create the receiver as well, taking the Sample Console Output as ex
 
 First I shall Create a dummy console script which will simulate the Sample Console Sender Output
 Then I should create a receiver script to pipe the sender console output in a stream
+After that, we should try to add min and max of each value incoming
