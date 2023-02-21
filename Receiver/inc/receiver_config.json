@@ -1,0 +1,11 @@
+{
+    "Receiver_Config":
+    {
+        "Stream_Length": 50,
+        "Battery_Parameters": 
+        {
+            "Battery_Level": "", 
+            "Charging_Current": ""
+        }
+    }
+}
