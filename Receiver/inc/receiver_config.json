@@ -1,0 +1,11 @@
+{
+    "Receiver_Config":
+    {
+        "Simple_Moving_Average": 5,
+        "Battery_Parameters": 
+        {
+            "Battery_Level": [], 
+            "Charging_Current": []
+        }
+    }
+}

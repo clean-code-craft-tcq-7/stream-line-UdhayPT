@@ -1,0 +1,34 @@
+Taking the Console Output
+
+The Receiver
+
+    reads the parameters from the console input
+    after reading every parameter, it prints the following:
+        maximum and minimum values in the incoming stream
+        simple moving average of the last 5 values
+
+
+Sample Console Output
+
+Sending Battery Stream line parameters, BatteryLevel: 32.54538345336914%, Charging Current: 3.85644793510437 A
+Sending Battery Stream line parameters, BatteryLevel: 62.93474578857422%, Charging Current: 2.315852642059326 A
+Sending Battery Stream line parameters, BatteryLevel: 31.281644821166992%, Charging Current: 2.3133201599121094 A
+Sending Battery Stream line parameters, BatteryLevel: 95.20246887207031%, Charging Current: 2.216201066970825 A
+Sending Battery Stream line parameters, BatteryLevel: 84.53128051757812%, Charging Current: 4.163990497589111 A
+Sending Battery Stream line parameters, BatteryLevel: 28.060739517211914%, Charging Current: 0.7701849937438965 A
+Sending Battery Stream line parameters, BatteryLevel: 75.76170349121094%, Charging Current: 3.6548092365264893 A
+Sending Battery Stream line parameters, BatteryLevel: 58.53975296020508%, Charging Current: 0.27704983949661255 A
+....
+
+Steps :
+
+Using TDD to create the receiver as well, taking the Sample Console Output as example
+
+First I shall Create a dummy console script which will simulate the Sample Console Sender Output
+Then I should create a receiver script to pipe the sender console output in a stream
+After that, we should try to add min and max of each value incoming
+Then we are adding the simple moving average function
+
+Adding call to the github workflow
+
+Now creating the bms receiver test script, to check the output stream
