@@ -30,3 +30,5 @@ After that, we should try to add min and max of each value incoming
 Then we are adding the simple moving average function
 
 Adding call to the github workflow
+
+Now creating the bms receiver test script, to check the output stream

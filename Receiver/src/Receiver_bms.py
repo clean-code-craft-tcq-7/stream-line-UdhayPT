@@ -10,6 +10,7 @@ class ReceiverBMS:
         # Regex needs to be modified depending upon the battery parameters and sender connsole output
         self.regex_match = r".+: (.+)%,.+: (.+) A"
         self.receiver_config_json = os.path.join(self.root_dir, "Receiver", "inc", "receiver_config.json")
+        self.receiver_test_case_json = os.path.join(self.root_dir, "Receiver", "inc", "receiver_test_case.json")
 
     def get_json_data(self, path):
         data = {}
